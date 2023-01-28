@@ -15,6 +15,9 @@ module.exports = {
       'dark-blue': 'hsl(223, 47%, 23%)',
       'white': "#fff"
     },
+    fontFamily: {
+      custom: ['Montserrat', 'sans-serif']
+    },
     extend: {
       backgroundImage: {
         'desktop': "url('src/images/pattern-background-desktop.svg')",
