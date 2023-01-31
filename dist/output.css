@@ -643,8 +643,33 @@ html{
   background-color: hsl(245 75% 52% / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'images\/pattern-background-mobile\.svg\'\)\]{
-  background-image: url('images/pattern-background-mobile.svg');
+.bg-pale-blue{
+  --tw-bg-opacity: 1;
+  background-color: hsl(225 100% 94% / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\.\/dist\/images\/pattern-background-mobile\.svg\'\)\]{
+  background-image: url('../dist/images/pattern-background-mobile.svg');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-contain{
+  background-size: contain;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-top{
+  background-position: top;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
 }
 
 .p-0{
@@ -747,7 +772,7 @@ html{
 }
 
 @media (min-width: 992px){
-  .md\:bg-\[url\(\'images\/pattern-background-mobile\.svg\'\)\]{
-    background-image: url('images/pattern-background-mobile.svg');
+  .md\:bg-\[url\(\'\.\.\/dist\/images\/pattern-background-desktop\.svg\'\)\]{
+    background-image: url('../dist/images/pattern-background-desktop.svg');
   }
 }
